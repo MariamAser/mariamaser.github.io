@@ -114,12 +114,12 @@ export default function Personal() {
             
             <div className="mt-6 grid grid-cols-2 gap-4">
               <img
-                src="/sketch1.png"
+                src={`${import.meta.env.BASE_URL}sketch1.jpg`}
                 alt="Sketch 1"
                 className="w-full h-auto rounded-lg border border-white/10"
               />
               <img
-                src="/sketch2.png"
+                src={`${import.meta.env.BASE_URL}sketch1.jpg`}
                 alt="Sketch 2"
                 className="w-full h-auto rounded-lg border border-white/10"
               />
