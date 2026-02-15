@@ -119,7 +119,7 @@ export default function Personal() {
                 className="w-full h-auto rounded-lg border border-white/10"
               />
               <img
-                src={`${import.meta.env.BASE_URL}sketch1.jpg`}
+                src={`${import.meta.env.BASE_URL}sketch2.jpg`}
                 alt="Sketch 2"
                 className="w-full h-auto rounded-lg border border-white/10"
               />

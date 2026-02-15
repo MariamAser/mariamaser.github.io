@@ -102,7 +102,7 @@ export default function Resume() {
             {/* Placeholder box — replace with embed if you want */}
             <div className="mt-6 flex justify-center">
               <img
-                src="<img src={`${import.meta.env.BASE_URL}resume.png}"
+                src={`${import.meta.env.BASE_URL}resume.png`}
                 alt="Resume"
                 className="w-full max-w-4xl h-auto rounded-xl border border-white/10"
               />
