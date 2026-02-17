@@ -71,7 +71,7 @@ export default function Home() {
       <div className="relative z-10 max-w-3xl px-6">
 
         <h1 className="mt-8 text-4xl font-black tracking-tight text-white sm:text-6xl">
-          Hi,
+          Hi, 
           <br className="hidden sm:block" />
           I'm Mariam!
         </h1>

@@ -32,7 +32,7 @@ const projects = [
     tags: ["Vite","TailwindCSS", "HTML", "React", "JavaScript", "Custom UI Components","Git"],
     links: [
       // replace with real links or remove
-      { label: "GitHub", href: "https://github.com/" },
+      { label: "GitHub", href: "https://github.com/MariamAser/mariamaser.github.io" },
       //{ label: "Demo", href: "https://example.com" },
     ],
     bullets: [

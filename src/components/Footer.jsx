@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-10 text-center text-sm text-white/50">
         © {new Date().getFullYear()} Mariam Aser
         <div className="mt-2 text-white/30">
-          Built with React + Tailwind + Three.js
+          Built with Vite + Tailwind + Three.js
         </div>
       </div>
     </footer>

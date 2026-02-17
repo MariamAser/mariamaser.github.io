@@ -1,101 +1,3 @@
-/*import React, { useMemo, useState } from "react";
-import { Card, ButtonLink, Pill } from "../components/UI.jsx";
-
-export default function Contact() {
-  const [copied, setCopied] = useState(false);
-
-  const email = "youremail@example.com";
-  const linkedIn = "https://www.linkedin.com/";
-  const github = "https://github.com/";
-
-  const mailto = useMemo(() => {
-    const subject = encodeURIComponent("Hello! (from your portfolio)");
-    const body = encodeURIComponent("Hi! I found your portfolio and wanted to connect about...");
-    return `mailto:${email}?subject=${subject}&body=${body}`;
-  }, [email]);
-
-  async function copyEmail() {
-    try {
-      await navigator.clipboard.writeText(email);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1200);
-    } catch {
-      setCopied(false);
-      alert("Could not copy. You can manually copy the email.");
-    }
-  }
-
-  return (
-    <div className="space-y-6">
-      <header className="flex flex-col gap-2">
-        <h1 className="text-3xl font-black tracking-tight">Contact</h1>
-        <p className="text-slate-700">Fast ways to reach you + a friendly message prompt.</p>
-      </header>
-
-      <div className="grid gap-6 lg:grid-cols-2">
-        <Card className="p-6">
-          <h2 className="text-lg font-extrabold">Message me</h2>
-          <p className="mt-2 text-sm text-slate-700">
-            Email is simplest (works great on static sites). Later we can add a free form service if you want.
-          </p>
-
-          <div className="mt-5 rounded-xl2 bg-white p-4 ring-1 ring-slate-200">
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <div className="text-xs font-bold text-slate-600">Email</div>
-                <div className="text-sm font-extrabold">{email}</div>
-              </div>
-              <div className="flex gap-2">
-                <button
-                  onClick={copyEmail}
-                  className="rounded-2xl bg-white px-4 py-2 text-sm font-extrabold text-slate-900 ring-1 ring-slate-200 shadow-soft transition hover:translate-y-[-1px] focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500"
-                >
-                  {copied ? "Copied!" : "Copy"}
-                </button>
-                <a
-                  href={mailto}
-                  className="rounded-2xl bg-slate-900 px-4 py-2 text-sm font-extrabold text-white shadow-soft transition hover:translate-y-[-1px] focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500"
-                >
-                  Email me
-                </a>
-              </div>
-            </div>
-
-            <div className="mt-3 flex flex-wrap gap-2">
-              <Pill>Usually replies in 24–48h</Pill>
-              <Pill>Open to referrals</Pill>
-            </div>
-          </div>
-
-          <div className="mt-6 flex flex-wrap gap-3">
-            <ButtonLink href={linkedIn} variant="secondary">LinkedIn</ButtonLink>
-            <ButtonLink href={github} variant="secondary">GitHub</ButtonLink>
-          </div>
-        </Card>
-
-        <Card className="p-6">
-          <h2 className="text-lg font-extrabold">What to say</h2>
-          <div className="mt-3 space-y-3 text-sm text-slate-700">
-            <p className="rounded-xl2 bg-white p-4 ring-1 ring-slate-200">
-              <span className="font-extrabold">Recruiter:</span> “Hi, I’m reaching out about [role]. I liked your project
-              on [X]. Are you open to a quick chat this week?”
-            </p>
-            <p className="rounded-xl2 bg-white p-4 ring-1 ring-slate-200">
-              <span className="font-extrabold">Engineer:</span> “Hey! I saw you work on [team]. I’m exploring [area]. I’d
-              love advice on breaking into [field]—could I ask 2 questions?”
-            </p>
-            <p className="rounded-xl2 bg-white p-4 ring-1 ring-slate-200">
-              <span className="font-extrabold">Referral ask:</span> “If you think my background fits, would you be open
-              to referring me? Happy to send my resume.”
-            </p>
-          </div>
-        </Card>
-      </div>
-    </div>
-  );
-}
-*/
-
 // src/pages/Contact.jsx
 import React, { useState } from "react";
 
@@ -194,9 +96,9 @@ export default function Contact() {
                 <GlassBtn href="https://www.linkedin.com/in/mariamfaisalaser/" variant="secondary">
                   LinkedIn
                 </GlassBtn>
-                <GlassBtn href="https://github.com/" variant="secondary">
+                {/*<GlassBtn href="https://github.com/" variant="secondary">
                   GitHub
-                </GlassBtn>
+                </GlassBtn>*/}
               </div>
 
               <div className="mt-6 text-xs text-white/45">
